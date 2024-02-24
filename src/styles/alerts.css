@@ -1,0 +1,29 @@
+.swal2-container.swal2-center.swal2-backdrop-show {
+    background: rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    animation: pulse 2s alternate infinite;
+    pointer-events: none; 
+}
+
+.swal2-popup.swal2-toast.swal2-show {
+    border: 0.1px solid rgb(143, 143, 143);
+    max-width: 350px;
+}
+
+.swal2-title {
+    font-weight: bolder;
+    pointer-events: none; 
+}
+
+.swal2-footer {
+    font-weight: bolder;
+    pointer-events: none; 
+}
+
+.swal2-loader{
+    background-color: #f8f6ff;
+    pointer-events: none; 
+}
+
+
+

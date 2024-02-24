@@ -1,0 +1,75 @@
+#pagination{
+  display: grid;
+  place-items: center;
+  margin-top: -5px;
+}
+#pagination ul a{
+  color: rgb(100, 100, 100);
+  cursor: pointer;
+  font-size: 10px;
+}
+#pagination ul span{
+  color: rgb(100, 100, 100);
+  font-size: 8px;
+}
+#pagination h6{
+  margin-bottom: 0px;
+  font-size: 11px;
+}
+table span{
+  cursor: pointer;
+}
+
+#table{  
+  margin: 10px;
+  box-shadow: 0px 0px 5px 1px rgba(170,171,174,1);
+}
+#table thead tr th{
+  font-weight: bolder;
+  height: 30px;
+  font-size: 12px;
+  box-shadow: inset 0px -28px 98px -104px rgb(113, 203, 255);
+  max-width: 100px;
+  overflow-x: auto;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+#table tbody tr span{
+  vertical-align: middle;
+}
+#table tbody tr{
+  vertical-align: middle;
+  color: #808591;
+}
+#table tbody tr td{
+  max-width: 150px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.tittle-icon{
+  width: 50px;
+}
+
+#table tbody tr td::-webkit-scrollbar , #table thead tr th::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+}
+#table tbody tr td::-webkit-scrollbar-thumb , #table thead tr th::-webkit-scrollbar-thumb{
+  background-color: rgb(229, 229, 231);
+  border-radius: 15px;
+}
+#table::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+}
+#table::-webkit-scrollbar-thumb{
+  background-color: rgb(194, 194, 194);
+  border-radius: 15px;
+}
+#table::-webkit-scrollbar-thumb:hover{
+  background-color: rgb(71, 71, 71);
+}
+#element-search{
+  max-width: 120px;
+}
